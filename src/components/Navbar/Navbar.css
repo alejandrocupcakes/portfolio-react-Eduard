@@ -1,0 +1,82 @@
+.nav-wrapper{
+    background-color: rgb(32, 49, 126);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.nav-content{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin:  0 auto;
+}
+.logo {
+    width: 9rem;
+    height: 10rem;
+    margin: 0vh;
+    border-radius: 10%;
+}
+.nav-content li{
+    margin: 0 1.5rem;
+}
+.nav-content ul{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: baseline;
+}
+.menu-item{
+text-decoration: none;
+font-size: 0.9rem;
+font-weight:500 ;
+color: aliceblue;
+position: relative;
+cursor: pointer;
+}
+.menu-item::before{
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg,rgb(0, 132, 255) 0%, rgb(0, 81, 255)100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+.contact-btn{
+    font-size: 0.9rem;
+    font-weight:500 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background: linear-gradient(90deg,rgb(0, 140, 255) 0%, rgb(0, 68, 255)100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.contact-btn:hover{
+    color: rgb(43, 76, 223);
+    background: black;
+    outline: 1.5px solid rgb(43, 76, 223);
+}
