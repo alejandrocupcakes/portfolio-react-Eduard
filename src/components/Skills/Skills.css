@@ -1,5 +1,19 @@
 .skills-container {
+    margin-top: 6rem;
     padding: 2rem;
+  }
+  .skills-container h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    font-size: 2rem;
+    height: 2rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    filter: drop-shadow(2px 2px rgb(0, 140, 255));
   }
   
   .skills-content {
@@ -10,16 +24,25 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    justify-items: center;
+    justify-content: center;
   }
   
   .project-card {
+    display: flex;
+    width: 17rem;
     position: relative;
     background: #ffffff;
-    border: 1px solid #e0e0e0;
+    border: 3px solid #e0e0e0;
     border-radius: 8px;
     padding: 2rem;
     transition: transform 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   
   .project-card:hover {

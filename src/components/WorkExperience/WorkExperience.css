@@ -3,11 +3,17 @@
     position: relative;
 }
 .experience-container h5 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
     margin: 1rem;
-    filter: drop-shadow(2px 2px cyan);
+    filter: drop-shadow(2px 2px rgb(0, 140, 255));
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }

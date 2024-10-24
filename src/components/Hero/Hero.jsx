@@ -9,14 +9,14 @@ const Hero = () => {
         <section className="hero-container">
 <div className="hero-content">
     <h2>Quien soy</h2>
-    <p>Soy Eduard AAlejandro Cortez Salas, soy originario de Venezuela, pero resido en Colombia, Termine bachiller y soy tecnico en mecanica industrial, me gusta el footer y las creacion de las paginas coloridas
+    <p>Soy Eduard Alejandro Cortez Salas, soy originario de Venezuela, pero resido en Colombia, Termine bachiller y soy tecnico en mecanica industrial, me gusta el footer y las creacion de las paginas coloridas
      </p> </div>
         
 <div className="hero-img">
 <div className="tech-icon">
     <img src={HTML} alt="" />
     </div>
-    <div>
+    <div className="tech-icon">
         <img src={javascript} alt="" />
     </div>
     <div>
