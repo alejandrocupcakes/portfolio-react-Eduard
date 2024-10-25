@@ -1,10 +1,10 @@
 .skills-container {
-    margin-top: 6rem;
+    margin-top: 0rem;
     padding: 2rem;
   }
   .skills-container h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: #ffffff;
     display: flex;
     font-size: 2rem;
     height: 2rem;
@@ -13,7 +13,7 @@
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    filter: drop-shadow(2px 2px rgb(0, 140, 255));
+    filter: drop-shadow(2px 2px #0077B6);
   }
   
   .skills-content {

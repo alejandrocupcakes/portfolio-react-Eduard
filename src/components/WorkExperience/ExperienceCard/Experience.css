@@ -25,12 +25,14 @@ margin:auto;
 
 
 .work-duration {
-    font-size: 1.1rem; 
-    color: #2c2424;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background: rgb(109, 75, 235);
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+    }
 
 .work-experience-card ul {
     margin: 0;
