@@ -56,14 +56,14 @@ cursor: pointer;
     opacity: 1;
 }
 .contact-btn{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight:500 ;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(255, 255, 255);
   background: #4361EE;
-    padding: 0.6rem 2rem;
+    padding: 0.5rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
     border-radius: 0.2rem;

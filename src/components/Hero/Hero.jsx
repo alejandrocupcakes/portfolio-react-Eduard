@@ -11,7 +11,7 @@ const Hero = () => {
 <div className="hero-content">
     <div className="im">
     <h2>Quien soy</h2>
-    <p>Soy Eduard Alejandro Cortez Salas, soy originario de Venezuela, pero resido en Colombia, Termine bachiller y soy tecnico en mecanica industrial, me gusta el footer y las creacion de las paginas coloridas
+    <p>Soy Eduard Alejandro Cortez Salas, soy originario de Venezuela, pero resido en Colombia, Termine bachiller y soy Técnico en mecánica industrial, me gusta el footer y las creacion de las páginas coloridas
      </p> </div></div>
      <div className="hero-content2">
         <div className="information">

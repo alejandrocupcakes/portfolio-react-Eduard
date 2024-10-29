@@ -11,7 +11,7 @@ const Navbar = () => {
             <li><a href="" className="menu-item">Work Experience</a></li>
             <li><a href="" className="menu-item">Contact Me</a></li>
             <button className="contact-btn" onClick={()=>{}}>
-            hire</button>
+            Hire</button>
             </ul>
         </div>
        </nav>
