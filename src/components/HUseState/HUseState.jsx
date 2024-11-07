@@ -33,7 +33,7 @@ const HUseState = () => {
   return (
     <div className="calculadora-container">
       <h2>Resultado: {value}</h2>
-      <fieldset>
+      <fieldset className='barra'>
         <input onChange={handleInput} type="number" placeholder='ingresar primer numero' />
         <input onChange={handleInput2} type="number" placeholder='ingresar segundo numero' />
       </fieldset>
